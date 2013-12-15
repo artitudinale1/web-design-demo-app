@@ -1,0 +1,75 @@
+[
+    {
+        "subject": "HTML", 
+        "id": "Heading", 
+        "imageUrl": "img/phones/1.png", 
+        "name": "Headings", 
+        "snippet": "The <h1> to <h6> tags are used to define HTML headings. <h1> defines the most important heading. <h6> defines the least important heading."
+    }, 
+    {
+        "subject": "CSS",
+        "id": "Padding", 
+        "imageUrl": "img/phones/2.gif", 
+        "name": "Padding", 
+        "snippet": "The padding clears an area around the content (inside the border) of an element. The padding is affected by the background color of the element."
+    },
+
+    {
+        "subject": "HTML",
+        "id": "Unordered_List", 
+        "imageUrl": "img/phones/4.gif", 
+        "name": "Unordered List", 
+        "snippet": "An unordered list starts with the <ul> tag. Each list item starts with the <li> tag.The list items are marked with bullets (typically small black circles)."
+    },
+
+    {
+        "subject": "HTML",
+        "id": "Ordered_List", 
+        "imageUrl": "img/phones/3.png", 
+        "name": "Ordered List", 
+        "snippet": "An ordered list starts with the <ol> tag. Each list item starts with the <li> tag.The list items are marked with numbers"
+    },
+
+{
+     "subject": "CSS",
+        "id": "Margin", 
+        "imageUrl": "img/phones/2.gif", 
+        "name": "Margin", 
+        "snippet": "The margin clears an area around an element (outside the border). The margin does not have a background color, and is completely transparent. The top, right, bottom, and left margin can be changed independently using separate properties. A shorthand margin property can also be used, to change all margins at once."
+    },
+
+    {
+        "subject": "CSS",
+        "id": "Style_Ordered_List", 
+        "imageUrl": "img/phones/3.png", 
+        "name": "Style Ordered List", 
+        "snippet": "An ordered list can have different style. All is set using the list-syle-type property."
+    },
+
+    {
+        "subject": "CSS",
+        "id": "Style_Unordered_List", 
+        "imageUrl": "img/phones/4.gif", 
+        "name": "Style Unordered List", 
+        "snippet": "An unordered list can have different style. All is set using the list-syle-type property"
+    },
+
+
+     {
+        "subject": "CSS",
+        "id": "Display", 
+        "imageUrl": "img/phones/5.png", 
+        "name": "Display", 
+        "snippet": "The display property defines how a certain HTML element should be displayed."
+    },
+
+     {
+        "subject": "HTML",
+        "id": "Tables", 
+        "imageUrl": "img/phones/6.gif", 
+        "name": "Tables", 
+        "snippet": "Table are mainly used in Html to create a newsletter and fixed layout."
+    }
+
+
+]

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script type="text/javascript">
+
+function changeStyleList(kind)
+{
+
+    document.getElementById("a").style.listStyleType=kind;
+};
+
+
+</script>
+
+<style type="text/css">
+p
+{
+background-color:yellow;
+border: solid 3px red;
+}
+</style>
+</head>
+
+<body>
+<ol id="a">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</0l>
+List-Style-Type:
+<select onchange="changeStyleList(this.options[this.selectedIndex].value)" >
+    <option value="upper-roman">upper-roman</option>
+    <option value="lower-alpha">square</option>
+    <option value="none">none</option>
+   
+</select>
+
+
+
+
+
+
+</body>
+
+</html>

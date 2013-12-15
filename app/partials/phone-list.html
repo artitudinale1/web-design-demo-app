@@ -1,0 +1,42 @@
+
+<!DOCTYPE>
+<html>
+<head>
+
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span2">
+      <!---->
+
+     
+<a href="" id="html" ng-click="subject = 'HTML' ">HTML</a>
+<a href="" id="css" ng-click="subject = 'CSS' ">CSS</a>
+<a href="" ng-click="subject = ' '">ALL</a>
+<a href="../" >BACK TO LAYOUT</a>
+
+<br>
+
+Search: <input ng-model="query">
+     
+    </div>
+    <div class="span10">
+      <!--Body content-->
+
+      <ul class="phones">
+        <li ng-repeat="phone in phones |  filter:subject | filter:query " class="thumbnail">
+          <a  href="#/phones/{{phone.id}}" class="thumb"><img ng-src="{{phone.imageUrl}}"></a>
+          <a  href="#/phones/{{phone.id}}">{{phone.name}}</a>
+          <p>{{phone.snippet}}</p>
+           <p>{{phone.subject}}</p>
+
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>
+</body>
+</html>

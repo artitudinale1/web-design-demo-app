@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script type="text/javascript">
+
+function changePaddingTop(top)
+{
+
+    document.getElementById("ex2").style.paddingTop=top;
+};
+
+function changePaddingBottom(bottom)
+{
+
+    document.getElementById("ex2").style.paddingBottom=bottom;
+};
+
+function changePaddingLeft(left)
+{
+
+    document.getElementById("ex2").style.paddingLeft=left;
+};
+
+function changePaddingRight(right)
+{
+
+    document.getElementById("ex2").style.paddingRight=right;
+};
+</script>
+
+
+
+
+
+<style type="text/css">
+p
+{
+background-color:yellow;
+}
+</style>
+</head>
+
+<body>
+<p id="ex2">This is a paragraph with no specified padding. This is a paragraph with no specified padding.</p>
+Top-Padding:
+<select onchange="changePaddingTop(this.options[this.selectedIndex].value)" >
+    <option value="1px">1px</option>
+    <option value="50px">50px</option>
+    <option value="70px">70px</option>
+    <option value="100px">100px</option>
+</select>
+
+<br>
+Bottom-Padding:
+<select onchange="changePaddingBottom(this.options[this.selectedIndex].value)" >
+    <option value="1px">1px</option>
+    <option value="50px">50px</option>
+    <option value="70px">70px</option>
+    <option value="100px">100px</option>
+</select>
+<br>
+Left-Padding:
+<select onchange="changePaddingLeft(this.options[this.selectedIndex].value)" >
+    <option value="1px">1px</option>
+    <option value="50px">50px</option>
+    <option value="70px">70px</option>
+    <option value="100px">100px</option>
+</select>
+<br>
+Right-Padding:
+<select onchange="changePaddingRight(this.options[this.selectedIndex].value)" >
+    <option value="1px">1px</option>
+    <option value="50px">50px</option>
+    <option value="70px">70px</option>
+    <option value="100px">100px</option>
+</select>
+
+
+
+</body>
+
+</html>

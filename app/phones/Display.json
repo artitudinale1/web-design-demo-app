@@ -1,0 +1,9 @@
+{
+    "description": "The display property defines how a certain HTML element should be displayed. BLOCK The element is displayed as a block element (like paragraphs and headers). A block element has some whitespace above and below it and does not tolerate any HTML elements next to it. INLINE This is default. The element is displayed as an inline element (like span). An inline element has no line break before or after it, and it tolerates HTML elements next to it. NONE The element will not be displayed at all",
+   
+ 
+     "name": "Display", 
+
+     "exemple": "8.html"
+ 
+}

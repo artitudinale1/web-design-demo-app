@@ -1,0 +1,9 @@
+{
+    "description":"The ordered list has bullet by default. Its style can be changed though the list-style-type and can be set on CIRCLE, SQUARE, NONE or an using an image.",
+
+
+    "name": "Style Ordered_List", 
+
+"exemple": "6.html"
+ 
+}

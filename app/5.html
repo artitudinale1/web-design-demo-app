@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script type="text/javascript">
+
+function changeMarginTop(top)
+{
+
+    document.getElementById("ex2").style.marginTop=top;
+};
+
+function changeMarginBottom(bottom)
+{
+
+    document.getElementById("ex2").style.marginBottom=bottom;
+};
+
+function changeMarginLeft(left)
+{
+
+    document.getElementById("ex2").style.marginLeft=left;
+};
+
+function changeMarginRight(right)
+{
+
+    document.getElementById("ex2").style.marginRight=right;
+};
+</script>
+
+
+
+
+
+<style type="text/css">
+p
+{
+background-color:yellow;
+border: solid 3px red;
+}
+</style>
+</head>
+
+<body>
+<p id="ex2">This is a paragraph with no specified margin. This is a paragraph with no specified margin.</p>
+Top-Margin:
+<select onchange="changeMarginTop(this.options[this.selectedIndex].value)" >
+    <option value="1px">1px</option>
+    <option value="50px">50px</option>
+    <option value="70px">70px</option>
+    <option value="100px">100px</option>
+</select>
+
+<br>
+Bottom-Margin:
+<select onchange="changeMarginBottom(this.options[this.selectedIndex].value)" >
+    <option value="1px">1px</option>
+    <option value="50px">50px</option>
+    <option value="70px">70px</option>
+    <option value="100px">100px</option>
+</select>
+<br>
+Left-Margin:
+<select onchange="changeMarginLeft(this.options[this.selectedIndex].value)" >
+    <option value="1px">1px</option>
+    <option value="50px">50px</option>
+    <option value="70px">70px</option>
+    <option value="100px">100px</option>
+</select>
+<br>
+Right-Margin:
+<select onchange="changeMarginRight(this.options[this.selectedIndex].value)" >
+    <option value="1px">1px</option>
+    <option value="50px">50px</option>
+    <option value="70px">70px</option>
+    <option value="100px">100px</option>
+</select>
+
+
+
+</body>
+
+</html>

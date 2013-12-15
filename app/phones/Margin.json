@@ -1,0 +1,9 @@
+{
+    "description": "The margin clears an area around an element (outside the border). The margin does not have a background color, and is completely transparent. The top, right, bottom, and left margin can be changed independently using separate properties. A shorthand margin property can also be used, to change all margins at once.",
+   
+ 
+    "name": "Margin", 
+
+"exemple": "5.html"
+ 
+}

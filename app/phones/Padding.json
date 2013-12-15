@@ -1,0 +1,9 @@
+{
+    "description": "The padding clears an area around the content (inside the border) of an element. The padding is affected by the background color of the element.The top, right, bottom, and left padding can be changed independently using separate properties. A shorthand padding property can also be used, to change all paddings at once.",
+   
+ 
+    "name": "Padding", 
+
+"exemple": "2.html"
+ 
+}

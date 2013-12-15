@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script type="text/javascript">
+
+function changePaddingTop(top)
+{
+
+   document.getElementById("a").style.display=top;
+var all = document.getElementsByTagName("li");
+for (var i = 0; i < all.length; i++) {
+     var link = all[i];
+    link.style.display=top;
+};
+};
+
+</script>
+
+
+
+<style type="text/css">
+p
+{
+background-color:yellow;
+border: solid 3px red;
+}
+
+</style>
+</head>
+
+<body>
+<ul id="b">
+  <li class="bi" >Coffee</li>
+  <li class="bi" >Tea</li>
+  <li class="bi">Coca Cola</li>
+</ul>
+<br>
+<p id="a"> This is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porttitor bibendum nisi et luctus. Nullam sagittis turpis vitae nisi sagittis nec scelerisque est sodales. Etiam nec dolor et dui tempus hendrerit in ut risus. Nullam eget vulputate quam. Praesent faucibus ligula et nulla cursus vitae interdum nunc fermentum. Fusce mollis accumsan quam, at ultrices turpis lobortis non. Aenean enim eros, laoreet eget aliquam nec, consequat eget nunc.
+</p>
+<br>
+Display:
+<select onchange="changePaddingTop(this.options[this.selectedIndex].value)" >
+    <option value="null">Select_One</option>
+    <option value="inline">inline</option>
+    <option value="block">block</option>
+    <option value="none">none</option>
+   
+</select>
+
+
+
+
+
+
+</body>
+
+</html>

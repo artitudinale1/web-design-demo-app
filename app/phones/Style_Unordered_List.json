@@ -1,0 +1,9 @@
+{
+    "description":"An unordered list has bullet by default. Its style can be changed though the list-style-type and can be set on UPPER ROMAN, SQUARE, NONE or an using an image",
+
+
+    "name": "Style Unordered_List", 
+
+"exemple": "7.html"
+ 
+}
