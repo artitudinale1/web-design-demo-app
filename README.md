@@ -19,7 +19,7 @@ Finally it has a session dedicate to articles or useful reading about the integr
 
 The template has been developed in HTML and CSS. The landing page presents a drop-down navigation bar and a slide show both built using jQuery plug in.
 
-The elements sessions is developed using Angolar JS and based on its tutorial : -http://docs.angularjs.org/tutorial/ - Angular JS Phone Catolog Tutorial Application.
+The elements sessions is developed using Angular JS and based on its tutorial : -http://docs.angularjs.org/tutorial/ - Angular JS Phone Catolog Tutorial Application.
 
 ##<b>ACCESS TO THE PROJECT</b>##
 
