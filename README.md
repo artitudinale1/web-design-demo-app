@@ -1,7 +1,7 @@
 # Developing elements for designers 
 
 
-##<b>BRIEF/BACKGOUND PROJECT</b>##
+##<b>BRIEF/BACKGROUND PROJECT</b>##
 
 The aim of this project is to create a template presenting the main elements of web developing used to build a website design.
 In particular it has the purpose to highlight those development concepts can be useful to a team of creative designers.
