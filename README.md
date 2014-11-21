@@ -42,3 +42,4 @@ HTML5, CSS3,  AngularJS
  - Work at decent look & feel
  - Testing / display better content
    
+<b>PLESE IF YOU EXPERIMENT ANY BUGS/ERRORS/PROBLEMS TESTiNG OR CHECKING OUT THIS PROJECT</b> report it though GITHUB or @ alex.garulli@gmail.com
